@@ -5,6 +5,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+// Problem 20 easy
 public class ValidParentheses {
 	public static boolean isValid(String s) {
 		List<String> listBracket = new ArrayList<>(List.of(s.split("")));
